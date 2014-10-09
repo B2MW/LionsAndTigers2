@@ -7,21 +7,24 @@
 //
 
 #import "ViewController.h"
+#import "TopViewController.h"
 
-@interface ViewController ()
-
+@interface ViewController () <TopDelegate>
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *viewControllerLeftConstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *viewControllerRightConstraint;
+@property TopViewController *topViewController;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.topViewController.delegate = self;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) topRevealButtonTapped
+{
+    
 }
 
 @end
