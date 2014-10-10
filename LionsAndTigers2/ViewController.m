@@ -22,9 +22,11 @@
     self.topViewController.delegate = self;
 }
 
-- (void) topRevealButtonTapped
+- (void)topRevealButtonTapped
 {
-    
+//    self.viewControllerLeftConstraint.constant = 3;
+//    self.viewControllerRightConstraint.constant = 3;
+    NSLog(@"10-4");
 }
 
 @end

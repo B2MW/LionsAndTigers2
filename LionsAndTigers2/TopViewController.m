@@ -14,14 +14,18 @@
 
 @implementation TopViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (void)topRevealButtonTapped
+{
+    NSLog(@"top reveal button tapped");
 }
+
 
 - (IBAction)onLeftBarButtonPressed:(id)sender {
     [self.delegate topRevealButtonTapped];
+    NSLog(@"I have been tapped");
 }
-
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
 
 @end
