@@ -16,6 +16,7 @@
 		4C6F27C819E74E63000D328D /* LionsAndTigers2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F27C719E74E63000D328D /* LionsAndTigers2Tests.m */; };
 		4C6F27D319E74EB1000D328D /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F27D219E74EB1000D328D /* TopViewController.m */; };
 		4C6F27D619E74EC0000D328D /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F27D519E74EC0000D328D /* HUDViewController.m */; };
+		BC19EC5019E76BCB001ECAC2 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EC4F19E76BCB001ECAC2 /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		4C6F27D219E74EB1000D328D /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		4C6F27D419E74EC0000D328D /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
 		4C6F27D519E74EC0000D328D /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		BC19EC4E19E76BCB001ECAC2 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		BC19EC4F19E76BCB001ECAC2 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				4C6F27B219E74E63000D328D /* ViewController.h */,
 				4C6F27B319E74E63000D328D /* ViewController.m */,
 				4C6F27B519E74E63000D328D /* Main.storyboard */,
+				BC19EC4E19E76BCB001ECAC2 /* CustomCollectionViewCell.h */,
+				BC19EC4F19E76BCB001ECAC2 /* CustomCollectionViewCell.m */,
 				4C6F27D119E74EB1000D328D /* TopViewController.h */,
 				4C6F27D219E74EB1000D328D /* TopViewController.m */,
 				4C6F27D419E74EC0000D328D /* HUDViewController.h */,
@@ -232,6 +237,7 @@
 				4C6F27D619E74EC0000D328D /* HUDViewController.m in Sources */,
 				4C6F27D319E74EB1000D328D /* TopViewController.m in Sources */,
 				4C6F27B419E74E63000D328D /* ViewController.m in Sources */,
+				BC19EC5019E76BCB001ECAC2 /* CustomCollectionViewCell.m in Sources */,
 				4C6F27B119E74E63000D328D /* AppDelegate.m in Sources */,
 				4C6F27AE19E74E63000D328D /* main.m in Sources */,
 			);
@@ -424,6 +430,7 @@
 				4C6F27CD19E74E63000D328D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C6F27CE19E74E63000D328D /* Build configuration list for PBXNativeTarget "LionsAndTigers2Tests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				4C6F27D019E74E63000D328D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

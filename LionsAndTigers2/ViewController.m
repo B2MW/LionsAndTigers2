@@ -19,14 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.topViewController.delegate = self;
+//    self.topViewController.delegate = self;
 }
 
 - (void)topRevealButtonTapped
 {
-//    self.viewControllerLeftConstraint.constant = 3;
+//  self.viewControllerLeftConstraint.constant = 3;
 //    self.viewControllerRightConstraint.constant = 3;
     NSLog(@"10-4");
 }
 
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    if ([segue.identifier isEqualToString:@"NavigationSegue"]){
+        UINavigationController *navController = segue.destinationViewController;
+        TopViewController *topViewController = [navController.childViewControllers objectAtIndex:0];
+        topViewController.delegate = self;
+    }
+}
 @end
